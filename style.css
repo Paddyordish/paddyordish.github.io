@@ -38,3 +38,6 @@ body{background:var(--paper)}header{max-width:none;background:var(--ink);color:v
 .services .section-heading>p,.services .service-grid p{color:#59444c}
 .services .service-grid h3{font-family:var(--font);font-size:clamp(25px,2.4vw,31px);font-weight:700;line-height:1.2;letter-spacing:0;word-spacing:normal}
 .services .service-grid article,.services .service-foot{border-color:#bd8996}
+
+/* Permanent highlighted contact label. */
+.contact .eyebrow{display:table;max-width:100%;background:#201e1b;color:#fff;padding:2px 5px;line-height:1.4;box-decoration-break:clone;-webkit-box-decoration-break:clone}
