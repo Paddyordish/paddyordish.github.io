@@ -41,3 +41,6 @@ body{background:var(--paper)}header{max-width:none;background:var(--ink);color:v
 
 /* Permanent highlighted contact label. */
 .contact .eyebrow{display:table;max-width:100%;background:#201e1b;color:#fff;padding:2px 5px;line-height:1.4;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+/* Match the process dividers to the blush and burgundy palette. */
+.approach li{border-top-color:#bd8996}
