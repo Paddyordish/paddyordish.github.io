@@ -21,3 +21,25 @@ document.querySelectorAll('[data-project]').forEach(button=>button.addEventListe
 document.querySelector('.close-dialog').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});dialog.addEventListener('close',()=>{document.querySelector('#dialog-content').innerHTML='';opener?.focus()});
 
 const warehouse=document.querySelector('video');const playWarehouse=document.querySelector('#play-warehouse');playWarehouse.addEventListener('click',async()=>{try{if(warehouse.paused)await warehouse.play();else warehouse.pause()}catch{document.querySelector('#warehouse-status').innerHTML='Unable to start playback. <a href="assets/warehouse-walkthrough.mp4">Open the video directly ↗</a>'}});warehouse.addEventListener('play',()=>{playWarehouse.innerHTML='Pause walkthrough <span aria-hidden="true">Ⅱ</span>'});warehouse.addEventListener('pause',()=>{playWarehouse.innerHTML='Play walkthrough <span aria-hidden="true">▶</span>'});
+
+// Keep skill menus easy to dismiss on pointer and keyboard navigation.
+const skillDropdowns = [...document.querySelectorAll('.skill-dropdown')];
+skillDropdowns.forEach(dropdown => {
+  dropdown.addEventListener('toggle', () => {
+    if (dropdown.open) skillDropdowns.forEach(other => { if (other !== dropdown) other.open = false; });
+  });
+  dropdown.querySelectorAll('.skill-links a').forEach(link => {
+    link.addEventListener('click', () => { dropdown.open = false; });
+  });
+});
+document.addEventListener('click', event => {
+  if (!event.target.closest('.skill-dropdown')) skillDropdowns.forEach(dropdown => { dropdown.open = false; });
+});
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const openDropdown = skillDropdowns.find(dropdown => dropdown.open);
+  if (openDropdown) {
+    openDropdown.open = false;
+    openDropdown.querySelector('summary').focus();
+  }
+});

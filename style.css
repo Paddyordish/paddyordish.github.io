@@ -47,3 +47,28 @@ body{background:var(--paper)}header{max-width:none;background:var(--ink);color:v
 
 /* Personal portfolio heading; existing live palette preserved. */
 .hero .portfolio-kicker{font-size:13px;line-height:1.4;font-weight:700;letter-spacing:3.5px;margin:0 0 20px}.hero .portfolio-name{font-size:clamp(96px,10.6vw,148px);line-height:.82;letter-spacing:-2.5px}.hero .eyebrow{margin-bottom:34px}@media(max-width:1000px) and (min-width:681px){.hero .portfolio-name{font-size:clamp(80px,11.3vw,111px)}}@media(max-width:680px){.hero .portfolio-kicker{font-size:11px;letter-spacing:2.8px;margin-bottom:17px}.hero .portfolio-name{font-size:clamp(88px,23vw,145px);line-height:.82;letter-spacing:-1.5px}.hero .eyebrow{margin-bottom:27px}}
+
+/* Skill menus: links to matching portfolio work. */
+.skill-strip{position:relative;z-index:20;overflow:visible}
+.skill-strip>.wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;overflow:visible}
+.skill-strip .strip-label{flex:0 0 auto;font-size:9px;letter-spacing:1.3px}
+.skill-dropdown{position:relative;min-width:0}
+.skill-dropdown>summary{display:flex;align-items:center;justify-content:space-between;gap:13px;min-height:44px;padding:5px 7px;cursor:pointer;list-style:none;font-size:12px;font-weight:600;white-space:nowrap}
+.skill-dropdown>summary::-webkit-details-marker{display:none}
+.skill-dropdown>summary::marker{content:""}
+.skill-dropdown>summary:focus-visible{outline:2px solid #f6bac9;outline-offset:4px}
+.skill-strip .skill-chevron{display:inline-block;font-size:16px;line-height:1;color:#f6bac9;transition:transform .15s}
+.skill-dropdown[open] .skill-chevron{transform:rotate(180deg)}
+.skill-dropdown>summary:hover,.skill-dropdown[open]>summary{color:#f6bac9}
+.skill-dropdown .skill-links{display:block;position:absolute;top:calc(100% + 10px);left:0;z-index:30;width:300px;max-width:calc(100vw - 44px);max-height:min(380px,65vh);overflow-y:auto;background:#fff7f8;color:#201e1b;border:1px solid #bd8996;border-top:3px solid #780d20;box-shadow:5px 5px 0 #201e1b26;padding:6px;letter-spacing:0;text-transform:none}
+.skill-dropdown:last-child .skill-links,.skill-dropdown:nth-last-child(2) .skill-links{left:auto;right:0}
+.skill-links ul{list-style:none;margin:0;padding:0}
+.skill-links li+li{border-top:1px solid #dfb9c2}
+.skill-links a{display:block;padding:12px;text-decoration:none}
+.skill-links strong{display:block;font-family:var(--font);font-size:13px;font-weight:700;line-height:1.4}
+.skill-links small{display:block;margin-top:4px;font-size:10px;line-height:1.5;color:#68575d;font-weight:400}
+.skill-links a:hover,.skill-links a:focus-visible{background:#f9dfe4;color:#780d20}
+.skill-links a:focus-visible{outline:2px solid #780d20;outline-offset:-2px}
+@media(max-width:1000px){.skill-strip>.wrap{flex-wrap:wrap;justify-content:flex-start;gap:4px 21px}.skill-strip .strip-label{width:100%}.skill-dropdown>summary{font-size:11px;padding-left:0;padding-right:0}}
+@media(max-width:680px){.skill-strip>.wrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 20px;padding-top:17px;padding-bottom:17px}.skill-strip .strip-label{grid-column:1/-1;margin-bottom:5px}.skill-dropdown>summary{justify-content:flex-start;white-space:normal;font-size:12px;min-height:42px}.skill-dropdown[open]{grid-column:1/-1}.skill-dropdown .skill-links{position:static;width:100%;max-width:none;max-height:330px;box-shadow:none;margin:4px 0 12px}.skill-links strong{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.skill-strip .skill-chevron{transition:none}}
