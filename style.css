@@ -44,3 +44,6 @@ body{background:var(--paper)}header{max-width:none;background:var(--ink);color:v
 
 /* Match the process dividers to the blush and burgundy palette. */
 .approach li{border-top-color:#bd8996}
+
+/* Personal portfolio heading; existing live palette preserved. */
+.hero .portfolio-kicker{font-size:13px;line-height:1.4;font-weight:700;letter-spacing:3.5px;margin:0 0 20px}.hero .portfolio-name{font-size:clamp(96px,10.6vw,148px);line-height:.82;letter-spacing:-2.5px}.hero .eyebrow{margin-bottom:34px}@media(max-width:1000px) and (min-width:681px){.hero .portfolio-name{font-size:clamp(80px,11.3vw,111px)}}@media(max-width:680px){.hero .portfolio-kicker{font-size:11px;letter-spacing:2.8px;margin-bottom:17px}.hero .portfolio-name{font-size:clamp(88px,23vw,145px);line-height:.82;letter-spacing:-1.5px}.hero .eyebrow{margin-bottom:27px}}
