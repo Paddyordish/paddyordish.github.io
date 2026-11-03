@@ -1,4 +1,4 @@
-# Eclipse Lab — unpublished portfolio interaction
+# Eclipse Lab — portfolio test interaction
 
 Original HTML5 learning prototype by Patrick Ordish. One approximately three-minute predict → experiment → explain activity for ages 9–12, inspired by a school solar-eclipse lesson brief. No client assets, brand, text or private lesson materials are included.
 
@@ -42,6 +42,6 @@ The safety reminder covers uneclipsed and partially eclipsed viewing and is inte
 - Final completion locks answer choices; reset restores them.
 - CSS includes narrow-screen and print layouts. Physical tablet/interactive-whiteboard, mobile viewport, assistive technology and reduced-motion device testing remain outstanding.
 
-## Draft status
+## Publication status
 
-Saved only to `draft/eclipse-lab` in the portfolio repository. No main-branch edit, portfolio listing, merge, GitHub Pages change or deployment is part of this work. Repository visibility remains public, so source code on this branch is public; the live portfolio is unchanged. Preview image is included for review.
+Authorised for test publication on 3 November 2026 at https://paddyordish.github.io/demos/eclipse-lab/ via GitHub Pages. This is a standalone test URL; the portfolio homepage and its project listings are unchanged. The source originated on `draft/eclipse-lab`. Preview image is included for review.
