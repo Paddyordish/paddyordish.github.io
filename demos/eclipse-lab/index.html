@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#101720">
+<title>Eclipse Lab | Patrick Ordish</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#activity">Skip to activity</a>
+<header><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">◐</span> ECLIPSE LAB<span class="brand-line">A LITTLE EXPERIMENT. A BIG DISCOVERY.</span></a><span class="edition">LEARNING PROTOTYPE <span>01</span></span></header>
+<main id="activity">
+<div class="intro"><div><p class="eyebrow">SPACE SCIENCE / AGES 9–12 / 3 MINUTES</p><h1>Make the Sun <em>disappear.</em></h1><p>One Moon. One Sun. Can you line them up to make a total solar eclipse?</p></div><button id="teacher" class="quiet" aria-expanded="false" aria-controls="teacher-notes">Teacher notes <span aria-hidden="true">↗</span></button></div>
+<section id="teacher-notes" hidden class="teacher-panel"><h2>A quick classroom investigation</h2><p><strong>Learning goal:</strong> explain that a solar eclipse happens when the Moon moves between Earth and the Sun, blocking our view of the Sun.</p><p><strong>Before:</strong> ask students to predict what will cover the Sun. <strong>During:</strong> have a student move the slider on your whiteboard and collect two observations. <strong>After:</strong> ask pairs to explain why the Sun still exists when it disappears from view.</p><p>This original portfolio sample is aimed at ages 9–12. It is not a full lesson or the client’s approved safety content. The view models apparent discs from one observer on Earth; sizes, movement and timing are simplified. The sky illustration is expressive, not a brightness measurement.</p></section>
+<ol class="steps" aria-label="Investigation progress"><li class="active" id="step1"><span>01</span> Predict</li><li id="step2"><span>02</span> Experiment</li><li id="step3"><span>03</span> Explain</li></ol>
+<div class="lab">
+<aside class="mission">
+<p class="eyebrow">YOUR MISSION</p>
+<section id="predict"><h2>What will cover<br>the Sun?</h2><p>Imagine you are watching from Earth. Make a prediction, then test it.</p><fieldset><legend class="sr-only">Choose your prediction</legend><button data-prediction="moon">The Moon <span>↗</span></button><button data-prediction="earth">Earth’s shadow <span>↗</span></button><button data-prediction="cloud">A cloud <span>↗</span></button></fieldset></section>
+<section id="experiment" hidden><h2>Chase the<br>shadow.</h2><p id="prediction-note"></p><p>Move the Moon. Collect a partial eclipse and a total eclipse.</p><ul class="observations"><li id="partial-log"><span aria-hidden="true">○</span> Partial eclipse</li><li id="total-log"><span aria-hidden="true">○</span> Total eclipse</li></ul><button id="explain-button" class="primary" disabled>Explain your discovery →</button><p class="hint" id="collect-hint">Collect both observations to continue.</p></section>
+<section id="explain" hidden><h2>What happened<br>to the Sun?</h2><p>Choose the explanation that matches your experiment.</p><fieldset><legend class="sr-only">Explain the eclipse</legend><button data-answer="out">The Sun stopped shining.</button><button data-answer="moon">The Moon blocked our view of the Sun.</button><button data-answer="earth">Earth moved between the Sun and Moon.</button></fieldset><div id="feedback" role="status"></div><button id="reset" class="quiet">↺ Start again</button></section>
+</aside>
+<section class="observatory" aria-label="Eclipse simulation">
+<div class="scene-top"><span><i aria-hidden="true"></i> YOUR VIEW FROM EARTH</span><span id="phase">BEFORE THE ECLIPSE</span></div>
+<div class="sky" id="sky">
+<svg id="eclipse" viewBox="0 0 760 380" role="img" aria-labelledby="scene-title scene-desc"><title id="scene-title">The Moon moving across the Sun</title><desc id="scene-desc">The Moon is to the left of the Sun. No eclipse yet.</desc>
+<defs><radialGradient id="sun-fill"><stop stop-color="#fff4c5"/><stop offset=".7" stop-color="#ffce72"/><stop offset="1" stop-color="#ee9851"/></radialGradient><radialGradient id="sun-glow"><stop stop-color="#ffb557" stop-opacity=".34"/><stop offset="1" stop-color="#ffb557" stop-opacity="0"/></radialGradient><radialGradient id="moon-fill" cx=".65" cy=".35"><stop stop-color="#263444"/><stop offset="1" stop-color="#131d29"/></radialGradient><radialGradient id="corona-fill"><stop offset=".49" stop-color="#f3f7ff" stop-opacity=".9"/><stop offset=".63" stop-color="#d8ecff" stop-opacity=".3"/><stop offset="1" stop-color="#adcfff" stop-opacity="0"/></radialGradient></defs>
+<g id="stars" aria-hidden="true"></g><path d="M 66 181 H 694" stroke="#465465" stroke-dasharray="3 9" opacity=".45"/>
+<circle id="glow" cx="380" cy="181" r="160" fill="url(#sun-glow)"/>
+<circle id="corona" cx="380" cy="181" r="163" fill="url(#corona-fill)" opacity="0"/>
+<circle cx="380" cy="181" r="84" fill="url(#sun-fill)"/>
+<g id="moon" transform="translate(160 181)"><circle r="90" fill="url(#moon-fill)" stroke="#8192a1" stroke-opacity=".2"/><g fill="#8fa8bb" opacity=".055"><circle cx="-24" cy="-30" r="16"/><circle cx="32" cy="30" r="21"/><circle cx="-36" cy="38" r="10"/><circle cx="28" cy="-39" r="8"/></g></g>
+<g id="labels" fill="#b1bdc9" font-family="sans-serif" font-size="12" letter-spacing="2"><text id="moon-label" x="160" y="307" text-anchor="middle">MOON</text><text x="380" y="62" text-anchor="middle">SUN</text></g>
+<g id="horizon" fill="#101c27"><path d="M0 360L0 344 64 344 64 320 82 320 82 300 89 300 89 320 108 320 108 343 151 343 151 333 190 333 190 350 247 350Q261 318 280 308Q268 337 283 350Q300 310 330 304Q309 335 331 350Q357 310 388 313Q364 336 375 350L406 350 406 342 475 342 475 325 491 325 491 294 496 294 496 325 513 325 513 342 553 342 553 327 582 327 582 350 641 350 641 338 680 338 680 318 711 318 711 346 760 346 760 380 0 380Z"/></g>
+</svg>
+<div class="scene-caption"><span class="orbital-icon" aria-hidden="true">⊕</span><span>One observer. One changing view.</span><span class="scale-note">Simplified model · not to scale</span></div>
+</div>
+<div class="instrument"><div class="readout"><div><p class="eyebrow">SUN’S FACE COVERED</p><p class="number"><output id="coverage">0</output><span>%</span></p></div><p id="observation">The Sun’s face is visible. Move the Moon towards the centre to begin.</p><button id="capture" disabled>＋ Collect observation</button></div>
+<div class="slider-wrap"><div class="control-title"><label for="position">Move the Moon</label><span id="control-hint">Make a prediction to unlock</span></div><input type="range" id="position" min="0" max="100" value="0" step="0.1" disabled aria-describedby="slider-help"><div class="axis"><span>Before</span><span>Aligned</span><span>After</span></div><p class="sr-only" id="slider-help">Use arrow keys or drag. The Moon aligns with the Sun at the centre of the slider.</p><div class="transport"><button id="play" disabled>▶ Play crossing</button><button id="centre" disabled>◎ Align centres</button><span id="collected" role="status">0 / 2 observations</span></div></div></div>
+</section>
+</div>
+<aside class="safety"><span aria-hidden="true">☀</span><p><strong>This is a screen experiment.</strong> In real life, never look at the uneclipsed or partially eclipsed Sun without safe solar viewing glasses. Ordinary sunglasses are not safe. Follow your teacher’s approved eclipse-viewing instructions.</p></aside>
+<footer><span>DESIGNED & BUILT BY PATRICK ORDISH</span><span>Original concept · HTML5 learning interaction</span><a href="https://science.nasa.gov/eclipses/safety/" target="_blank" rel="noopener">NASA viewing safety ↗</a></footer>
+</main>
+<noscript><p>This experiment needs JavaScript. Enable it to move the Moon and collect observations.</p></noscript>
+</body></html>
