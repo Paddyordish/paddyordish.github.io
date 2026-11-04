@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   const slider = $('position');
   const found = new Set();
-  let stage = 'predict', prediction = '', playing = false, frame = 0, previous = 0, playhead = 0;
+  let stage = 'experiment', playing = false, frame = 0, previous = 0, playhead = 0;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const ns = 'http://www.w3.org/2000/svg';
   for (let i = 0; i < 58; i++) {
@@ -36,7 +36,7 @@
     $('glow').setAttribute('opacity', String(1-c));
     $('coverage').textContent = percent;
     $('phase').textContent = kind === 'total' ? 'TOTALITY' : kind === 'partial' ? 'PARTIAL ECLIPSE' : v < 50 ? 'BEFORE THE ECLIPSE' : 'AFTER THE ECLIPSE';
-    const text = kind === 'total' ? 'The Moon covers the Sun’s whole bright face. Its outer atmosphere, the corona, comes into view.' : kind === 'partial' ? 'The Moon covers part of the Sun’s face. Follow the slider towards the centre to find totality.' : 'The Sun’s face is visible. Move the Moon towards the centre to begin.';
+    const text = kind === 'total' ? 'The Moon covers the Sun’s whole bright face. Its outer atmosphere, the corona, comes into view.' : kind === 'partial' ? 'The Moon covers part of the Sun’s face. Follow the slider towards the centre to find totality.' : v < 50 ? 'Move the Moon towards the Sun to begin.' : 'The Sun is visible again. Move the Moon back to explore.';
     $('observation').textContent = text;
     $('scene-desc').textContent = `${$('phase').textContent}. ${percent}% of the Sun’s face is covered. ${text}`;
     slider.setAttribute('aria-valuetext', `${percent}% covered, ${kind === 'none' ? 'no eclipse' : kind + ' eclipse'}`);
@@ -54,21 +54,13 @@
   }
   function showStage(next) {
     stage = next;
-    ['predict','experiment','explain'].forEach((s,i) => {
+    ['experiment','explain'].forEach((s,i) => {
       $(s).hidden = s !== next;
       $('step'+(i+1)).classList.toggle('active', s === next);
       if (s === next) $('step'+(i+1)).setAttribute('aria-current','step');
       else $('step'+(i+1)).removeAttribute('aria-current');
     });
   }
-  document.querySelectorAll('[data-prediction]').forEach(button => button.addEventListener('click', () => {
-    prediction = button.dataset.prediction;
-    $('prediction-note').textContent = `Your prediction: ${button.childNodes[0].textContent.trim()}. Let’s investigate.`;
-    showStage('experiment');
-    [slider,$('play'),$('partial'),$('centre')].forEach(el => el.disabled = false);
-    $('control-hint').textContent = 'Drag, tap or use arrow keys';
-    render(); $('experiment').querySelector('h2').focus();
-  }));
   slider.addEventListener('input', () => {stop(); $('control-hint').textContent = 'Drag, tap or use arrow keys'; render();});
   $('partial').addEventListener('click', () => {stop();slider.value = '30'; $('control-hint').textContent = 'Partial eclipse found — click Collect partial eclipse above'; render();});
   $('centre').addEventListener('click', () => {stop();slider.value = '50'; $('control-hint').textContent = 'Total eclipse found — click Collect total eclipse above'; render();});
@@ -120,28 +112,30 @@
     document.querySelectorAll('[data-answer]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
     const correct = button.dataset.answer === 'moon';
     $('feedback').classList.toggle('success', correct);
-    $('feedback').textContent = correct ? `Discovery complete! The Sun kept shining. The Moon moved between Earth and the Sun and blocked our view.${prediction === 'moon' ? ' Your prediction matched the evidence.' : ' You used evidence to update your prediction.'}` : button.dataset.answer === 'out' ? 'Look again: the Sun’s face reappears after the Moon passes. Did the Sun switch off, or did something block our view?' : 'Earth’s shadow on the Moon causes a lunar eclipse. In this solar eclipse, which object passed in front of the Sun?';
+    $('feedback').textContent = correct ? 'Discovery complete! The Moon moved between Earth and the Sun, blocking our view. The Sun kept shining.' : button.dataset.answer === 'out' ? 'Look again: the Sun’s face reappears after the Moon passes. Did the Sun switch off, or did something block our view?' : 'Earth’s shadow on the Moon causes a lunar eclipse. In this solar eclipse, which object passed in front of the Sun?';
     if (correct) {
-      $('step3').textContent = '✓ Discovery complete';
+      $('step2').textContent = '✓ Discovery complete';
       document.querySelectorAll('[data-answer]').forEach(b => b.disabled = true);
     }
   }));
   $('reset').addEventListener('click', () => {
-    stop(); found.clear(); prediction = ''; slider.value = '0';
+    stop(); found.clear(); slider.value = '0';
     ['partial','total'].forEach(s => {$(s+'-log').classList.remove('done');$(s+'-log').querySelector('span').textContent = '○';});
-    [slider,$('play'),$('partial'),$('centre'),$('explain-button')].forEach(el => el.disabled = true);
+    [slider,$('play'),$('partial'),$('centre')].forEach(el => el.disabled = false);
+    $('explain-button').disabled = true;
     $('collected').textContent = '0 / 2 observations';
     $('collect-hint').textContent = 'Collect both observations to continue.';
-    $('control-hint').textContent = 'Make a prediction to unlock';
+    $('control-hint').textContent = 'Drag, tap or use arrow keys';
     $('feedback').textContent = ''; $('feedback').className = '';
     document.querySelectorAll('[data-answer]').forEach(b => {b.removeAttribute('aria-pressed'); b.disabled = false;});
-    $('step3').innerHTML = '<span>03</span> Explain';
-    showStage('predict');render();document.querySelector('[data-prediction]').focus();
+    $('step2').innerHTML = '<span>02</span> Explain';
+    showStage('experiment');render();$('experiment').querySelector('h2').focus();
   });
   $('teacher').addEventListener('click', () => {
     const expanded = $('teacher').getAttribute('aria-expanded') === 'true';
     $('teacher').setAttribute('aria-expanded', String(!expanded));$('teacher-notes').hidden = expanded;
   });
-  stop();showStage('predict');render();
+  [slider,$('play'),$('partial'),$('centre')].forEach(el => el.disabled = false);
+  stop();showStage('experiment');render();
 })();
 
