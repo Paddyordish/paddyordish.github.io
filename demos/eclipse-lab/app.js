@@ -41,7 +41,10 @@
     $('scene-desc').textContent = `${$('phase').textContent}. ${percent}% of the Sun’s face is covered. ${text}`;
     slider.setAttribute('aria-valuetext', `${percent}% covered, ${kind === 'none' ? 'no eclipse' : kind + ' eclipse'}`);
     $('capture').disabled = stage !== 'experiment' || kind === 'none' || found.has(kind);
-    $('capture').textContent = found.has(kind) ? '✓ Observation collected' : '＋ Collect observation';
+    $('capture').textContent = kind === 'none' ? 'Find an eclipse to collect' : found.has(kind) ? '✓ ' + (kind === 'total' ? 'Total' : 'Partial') + ' eclipse collected' : '＋ Collect ' + kind + ' eclipse';
+    $('explain-button').textContent = found.size === 2 ? 'Explain your discovery →' : 'Collect both to continue';
+    $('partial').classList.toggle('collected', found.has('partial'));
+    $('centre').classList.toggle('collected', found.has('total'));
     $('sky').style.background = c === 1 ? 'radial-gradient(ellipse at 50% 60%, #18263d, #080e1b 80%)' : '';
     return kind;
   }
@@ -62,12 +65,13 @@
     prediction = button.dataset.prediction;
     $('prediction-note').textContent = `Your prediction: ${button.childNodes[0].textContent.trim()}. Let’s investigate.`;
     showStage('experiment');
-    [slider,$('play'),$('centre')].forEach(el => el.disabled = false);
+    [slider,$('play'),$('partial'),$('centre')].forEach(el => el.disabled = false);
     $('control-hint').textContent = 'Drag, tap or use arrow keys';
     render(); $('experiment').querySelector('h2').focus();
   }));
   slider.addEventListener('input', () => {stop(); $('control-hint').textContent = 'Drag, tap or use arrow keys'; render();});
-  $('centre').addEventListener('click', () => {stop();slider.value = '50'; $('control-hint').textContent = 'Centres aligned — collect your observation'; render();});
+  $('partial').addEventListener('click', () => {stop();slider.value = '30'; $('control-hint').textContent = 'Partial eclipse found — click Collect partial eclipse above'; render();});
+  $('centre').addEventListener('click', () => {stop();slider.value = '50'; $('control-hint').textContent = 'Total eclipse found — click Collect total eclipse above'; render();});
   $('capture').addEventListener('click', () => {
     stop(); const kind = render();
     if (stage !== 'experiment' || kind === 'none') return;
@@ -75,7 +79,7 @@
     const log = $(kind+'-log'); log.classList.add('done'); log.querySelector('span').textContent = '✓';
     $('collected').textContent = `${found.size} / 2 observations collected`;
     $('explain-button').disabled = found.size !== 2;
-    $('collect-hint').textContent = found.size === 2 ? 'Both collected. Time to explain what you saw.' : kind === 'total' ? 'Now move away from the centre to find a partial eclipse.' : 'Now align the centres to find a total eclipse.';
+    $('collect-hint').textContent = found.size === 2 ? 'Both collected. Time to explain what you saw.' : kind === 'total' ? 'Click Find partial eclipse below the slider, then Collect partial eclipse.' : 'Click Find total eclipse below the slider, then Collect total eclipse.';
     render();
   });
   function tick(now) {
@@ -86,9 +90,10 @@
     previous = now;
     // Keep fractional progress outside the stepped input: high-refresh displays
     // can otherwise round every small frame increment back to the same value.
-    if (before < 50 && playhead >= 50) {
-      slider.value = '50'; render(); stop();
-      $('control-hint').textContent = 'Paused at totality — collect your observation';
+    const checkpoint = before < 30 && playhead >= 30 && !found.has('partial') ? 30 : before < 50 && playhead >= 50 ? 50 : null;
+    if (checkpoint !== null) {
+      slider.value = String(checkpoint); render(); stop();
+      $('control-hint').textContent = checkpoint === 30 ? 'Paused — click Collect partial eclipse above' : 'Paused — click Collect total eclipse above';
       return;
     }
     slider.value = String(playhead); render();
@@ -124,7 +129,7 @@
   $('reset').addEventListener('click', () => {
     stop(); found.clear(); prediction = ''; slider.value = '0';
     ['partial','total'].forEach(s => {$(s+'-log').classList.remove('done');$(s+'-log').querySelector('span').textContent = '○';});
-    [slider,$('play'),$('centre'),$('explain-button')].forEach(el => el.disabled = true);
+    [slider,$('play'),$('partial'),$('centre'),$('explain-button')].forEach(el => el.disabled = true);
     $('collected').textContent = '0 / 2 observations';
     $('collect-hint').textContent = 'Collect both observations to continue.';
     $('control-hint').textContent = 'Make a prediction to unlock';

@@ -48,3 +48,10 @@ footer a{font-size:12px}
  .safety p,.safety strong,.safety>span,.teacher-panel,.teacher-panel h2,.eyebrow{color:black}
 }
 
+
+/* Collection controls: make the next action explicit. */
+.transport #partial,.transport #centre{padding:9px 12px;border:1px solid #6e8467;border-radius:6px;color:var(--mint);background:#c6f6b50a}
+.transport .collected{border-color:var(--mint)!important}
+#explain-button:disabled{background:#263340;color:#c3cbd5;opacity:1;border:1px solid #4a5868}
+#capture{min-width:190px}
+@media(max-width:700px){.transport #partial,.transport #centre{flex:1 1 180px}.control-title span{max-width:100%}#capture{min-width:0}}

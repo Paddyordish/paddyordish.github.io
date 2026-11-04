@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#101720">
 <title>Eclipse Lab | Patrick Ordish</title>
-<link rel="stylesheet" href="style.css?v=20261104"><script src="app.js?v=20261104" defer></script>
+<link rel="stylesheet" href="style.css?v=20261104b"><script src="app.js?v=20261104b" defer></script>
 </head>
 <body>
 <a class="skip" href="#activity">Skip to activity</a>
@@ -17,7 +17,7 @@
 <aside class="mission">
 <p class="eyebrow">YOUR MISSION</p>
 <section id="predict"><h2>What will cover the Sun?</h2><p>Imagine you are watching from Earth. Make a prediction, then test it.</p><fieldset><legend class="sr-only">Choose your prediction</legend><button data-prediction="moon">The Moon <span>↗</span></button><button data-prediction="earth">Earth’s shadow <span>↗</span></button><button data-prediction="cloud">A cloud <span>↗</span></button></fieldset></section>
-<section id="experiment" hidden><h2 tabindex="-1">Chase the shadow.</h2><p id="prediction-note"></p><p>Move the Moon. Collect a partial eclipse and a total eclipse.</p><ul class="observations"><li id="partial-log"><span aria-hidden="true">○</span> Partial eclipse</li><li id="total-log"><span aria-hidden="true">○</span> Total eclipse</li></ul><button id="explain-button" class="primary" disabled>Explain your discovery →</button><p class="hint" id="collect-hint">Collect both observations to continue.</p></section>
+<section id="experiment" hidden><h2 tabindex="-1">Chase the shadow.</h2><p id="prediction-note"></p><p>Find a partial eclipse, then click Collect partial eclipse. Do the same for a total eclipse. Use the buttons below the slider if you need help.</p><ul class="observations"><li id="partial-log"><span aria-hidden="true">○</span> Partial eclipse</li><li id="total-log"><span aria-hidden="true">○</span> Total eclipse</li></ul><button id="explain-button" class="primary" disabled>Explain your discovery →</button><p class="hint" id="collect-hint">Collect both observations to continue.</p></section>
 <section id="explain" hidden><h2 tabindex="-1">What happened to the Sun?</h2><p>Choose the explanation that matches your experiment.</p><fieldset><legend class="sr-only">Explain the eclipse</legend><button data-answer="out">The Sun stopped shining.</button><button data-answer="moon">The Moon blocked our view of the Sun.</button><button data-answer="earth">Earth moved between the Sun and Moon.</button></fieldset><div id="feedback" role="status"></div><button id="reset" class="quiet">↺ Start again</button></section>
 </aside>
 <section class="observatory" aria-label="Eclipse simulation">
@@ -36,7 +36,7 @@
 <div class="scene-caption"><span class="orbital-icon" aria-hidden="true">⊕</span><span>One observer. One changing view.</span><span class="scale-note">Simplified model · not to scale</span></div>
 </div>
 <div class="instrument"><div class="readout"><div><p class="eyebrow">SUN’S FACE COVERED</p><p class="number"><output id="coverage" aria-live="off">0</output><span>%</span></p></div><p id="observation">The Sun’s face is visible. Move the Moon towards the centre to begin.</p><button id="capture" disabled>＋ Collect observation</button></div>
-<div class="slider-wrap"><div class="control-title"><label for="position">Move the Moon</label><span id="control-hint">Make a prediction to unlock</span></div><input type="range" id="position" min="0" max="100" value="0" step="0.1" disabled aria-describedby="slider-help"><div class="axis"><span>Before</span><span>Aligned</span><span>After</span></div><p class="sr-only" id="slider-help">Use arrow keys or drag. The Moon aligns with the Sun at the centre of the slider.</p><div class="transport"><button id="play" disabled>▶ Play crossing</button><button id="centre" disabled>◎ Align centres</button><span id="collected" role="status">0 / 2 observations</span></div></div></div>
+<div class="slider-wrap"><div class="control-title"><label for="position">Move the Moon</label><span id="control-hint">Make a prediction to unlock</span></div><input type="range" id="position" min="0" max="100" value="0" step="0.1" disabled aria-describedby="slider-help"><div class="axis"><span>Before</span><span>Aligned</span><span>After</span></div><p class="sr-only" id="slider-help">Use arrow keys or drag. The Moon aligns with the Sun at the centre of the slider.</p><div class="transport"><button id="play" disabled>▶ Play crossing</button><button id="partial" disabled>◐ Find partial eclipse</button><button id="centre" disabled>◎ Find total eclipse</button><span id="collected" role="status">0 / 2 observations</span></div></div></div>
 </section>
 </div>
 <aside class="safety"><span aria-hidden="true">☀</span><p><strong>This is a screen experiment.</strong> In real life, never look at the uneclipsed or partially eclipsed Sun without safe solar viewing glasses. Ordinary sunglasses are not safe. Follow your teacher’s approved eclipse-viewing instructions.</p></aside>
