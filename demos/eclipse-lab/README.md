@@ -40,8 +40,12 @@ The safety reminder covers uneclipsed and partially eclipsed viewing and is inte
 - JavaScript syntax check passed.
 - Desktop Chrome UI checked: prediction unlock, 41.2% partial at position 30, 100% total at position 50, observation collection gate, wrong-answer hint, correct completion, updated-prediction feedback, and full reset.
 - Final completion locks answer choices; reset restores them.
-- CSS includes narrow-screen and print layouts. Physical tablet/interactive-whiteboard, mobile viewport, assistive technology and reduced-motion device testing remain outstanding.
+- CSS includes narrow-screen and print layouts. Responsive browser checks at 320, 390, 768 and 1200 CSS pixels were completed on 4 November. Physical device, Safari, assistive technology and reduced-motion device testing remain outstanding.
 
 ## Publication status
 
 Authorised for test publication on 3 November 2026 at https://paddyordish.github.io/demos/eclipse-lab/ via GitHub Pages. This is a standalone test URL; the portfolio homepage and its project listings are unchanged. The source originated on `draft/eclipse-lab`. Preview image is included for review.
+
+## Readability and interaction audit
+
+See [AUDIT.md](AUDIT.md) for the 4 November 2026 corrections and validation. Playback now pauses at totality. Headings wrap naturally without joining words; learner copy and controls have larger type and better narrow-screen wrapping.

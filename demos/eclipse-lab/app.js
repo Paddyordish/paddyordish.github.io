@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   const slider = $('position');
   const found = new Set();
-  let stage = 'predict', prediction = '', playing = false, frame = 0, previous = 0;
+  let stage = 'predict', prediction = '', playing = false, frame = 0, previous = 0, playhead = 0;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const ns = 'http://www.w3.org/2000/svg';
   for (let i = 0; i < 58; i++) {
@@ -64,10 +64,10 @@
     showStage('experiment');
     [slider,$('play'),$('centre')].forEach(el => el.disabled = false);
     $('control-hint').textContent = 'Drag, tap or use arrow keys';
-    render(); slider.focus();
+    render(); $('experiment').querySelector('h2').focus();
   }));
-  slider.addEventListener('input', () => {stop();render();});
-  $('centre').addEventListener('click', () => {stop();slider.value = '50';render();});
+  slider.addEventListener('input', () => {stop(); $('control-hint').textContent = 'Drag, tap or use arrow keys'; render();});
+  $('centre').addEventListener('click', () => {stop();slider.value = '50'; $('control-hint').textContent = 'Centres aligned — collect your observation'; render();});
   $('capture').addEventListener('click', () => {
     stop(); const kind = render();
     if (stage !== 'experiment' || kind === 'none') return;
@@ -81,9 +81,20 @@
   function tick(now) {
     if (!playing) return;
     if (!previous) previous = now;
-    const next = Math.min(100, Number(slider.value) + Math.min(now-previous,100)/180);
-    previous = now; slider.value = String(next); render();
-    if (next >= 100) stop(); else frame = requestAnimationFrame(tick);
+    const before = playhead;
+    playhead = Math.min(100, playhead + Math.min(now-previous,100)/180);
+    previous = now;
+    // Keep fractional progress outside the stepped input: high-refresh displays
+    // can otherwise round every small frame increment back to the same value.
+    if (before < 50 && playhead >= 50) {
+      slider.value = '50'; render(); stop();
+      $('control-hint').textContent = 'Paused at totality — collect your observation';
+      return;
+    }
+    slider.value = String(playhead); render();
+    if (playhead >= 100) {
+      stop(); $('control-hint').textContent = 'Crossing complete — move the Moon to explore again';
+    } else frame = requestAnimationFrame(tick);
   }
   $('play').addEventListener('click', () => {
     if (reducedMotion) {
@@ -91,12 +102,14 @@
     }
     if (playing) {stop();return;}
     if (Number(slider.value) >= 100) slider.value = '0';
-    playing = true; previous = 0; $('play').textContent = 'Ⅱ Pause crossing'; frame = requestAnimationFrame(tick);
+    playing = true; previous = 0; playhead = Number(slider.value);
+    $('control-hint').textContent = 'Playing — pause whenever you want to collect';
+    $('play').textContent = 'Ⅱ Pause crossing'; frame = requestAnimationFrame(tick);
   });
   document.addEventListener('visibilitychange', () => {if (document.hidden) stop();});
   $('explain-button').addEventListener('click', () => {
     stop();showStage('explain');render();
-    document.querySelector('[data-answer]').focus();
+    $('explain').querySelector('h2').focus();
   });
   document.querySelectorAll('[data-answer]').forEach(button => button.addEventListener('click', () => {
     document.querySelectorAll('[data-answer]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
@@ -126,3 +139,4 @@
   });
   stop();showStage('predict');render();
 })();
+
