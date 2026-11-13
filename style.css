@@ -81,3 +81,6 @@ body{background:var(--paper)}header{max-width:none;background:var(--ink);color:v
 .hero-portrait>figcaption span{font-size:10px;white-space:nowrap;color:var(--muted)}
 @media(max-width:1000px){.hero-portrait{padding:14px}.hero-portrait>figcaption{flex-wrap:wrap;gap:4px 12px;padding-top:13px}.hero-portrait>figcaption strong{font-size:11px}}
 @media(max-width:680px){.hero-portrait{width:calc(100% - 10px);max-width:420px;margin:10px auto 5px;padding:14px;transform:rotate(1deg)}.hero-portrait>figcaption{padding-top:13px}.hero-portrait>figcaption span{font-size:10px}}
+
+/* Keep the full three-part assembly visible in the Rise course preview. */
+#project-fasteners .project-image img{object-fit:contain;object-position:center;background:#f6f4ee}

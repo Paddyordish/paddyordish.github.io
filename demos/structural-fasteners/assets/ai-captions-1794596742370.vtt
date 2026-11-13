@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:00:00.689 --> 00:00:04.449
+The combined method uses an initial torque followed by a specified part turn.
+
+1
+00:00:04.730 --> 00:00:05.050
+First,
+
+2
+00:00:05.210 --> 00:00:09.289
+set the wrench to 0.75 times the applicable reference torque and
+
+3
+00:00:09.289 --> 00:00:11.439
+complete that first step for all bolts in the connection.
+
+4
+00:00:11.810 --> 00:00:12.649
+Before the second step,
+
+5
+00:00:12.729 --> 00:00:15.319
+mark the position of the nut relative to the bolt threads,
+
+6
+00:00:15.649 --> 00:00:18.389
+then apply the specified rotation relative to the mark.
+
+7
+00:00:18.639 --> 00:00:22.129
+The required rotation depends on the total nominal connected thickness,
+
+8
+00:00:22.680 --> 00:00:25.190
+including packs and washers, compared with the bolt diameter.
+
+9
+00:00:25.450 --> 00:00:26.610
+The table gives 60,
+
+10
+00:00:26.709 --> 00:00:27.129
+90,
+
+11
+00:00:27.209 --> 00:00:30.129
+or 120 degrees for the stated thickness ranges.
+
+12
+00:00:30.530 --> 00:00:31.520
+Keep the table’s
+
+13
+00:00:31.530 --> 00:00:32.840
+conditions and note with the values.
+
+14
+00:00:33.049 --> 00:00:35.290
+Use the marks to distinguish the completed first
+
+15
+00:00:35.290 --> 00:00:37.569
+step from the required second-stage rotation.

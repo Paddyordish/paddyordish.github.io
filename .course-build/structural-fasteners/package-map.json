@@ -1,0 +1,1537 @@
+{
+  "title": "Structural Fasteners: Make the Inspection Call",
+  "original_export_sha256": "4aab1caacfa6624672f5114dd1a644716111682e2e2870282c26aa781582b9ef",
+  "output": "downloads/Structural-Fasteners-SCORM12.zip",
+  "entries": [
+    {
+      "archive": "scormcontent/lib/ai-scenario/entry.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/entry.js",
+      "sha256": "5a6825bd17aa591d2b4d4e17e0330de373386f90e920d96351c794489c3eb22c",
+      "bytes": 6811,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/57960b97.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/57960b97.js",
+      "sha256": "04d0bedc95d63c1150ef4d81689b37d4156234d70b6190601c13e0db11069d7b",
+      "bytes": 46401,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/841684f2.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/841684f2.js",
+      "sha256": "21afd55eef3ea3d85612142798d4e9442366f3dd9d0ded61174b538228c333d0",
+      "bytes": 570,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/6237cfa3.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/6237cfa3.js",
+      "sha256": "07a399d1afe697d43abe849d5e5ed0180a3b747cb51b331e09d58763886fe32b",
+      "bytes": 839,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/sandbox/sandbox.html",
+      "source": "demos/structural-fasteners/lib/sandbox/sandbox.html",
+      "sha256": "3880870b64940f076f8ea6952527e81aa81dc8ee2df3529fb794695a5d566140",
+      "bytes": 250,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/312c66b0.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/312c66b0.js",
+      "sha256": "f2732a68c05245d3dad1ed8e1a1dac8a67e288a462ee26af2403c94a8e462ce7",
+      "bytes": 13883,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/sandbox/c77685df.js",
+      "source": "demos/structural-fasteners/lib/sandbox/c77685df.js",
+      "sha256": "16ea17446005286bcd69aa6350adbab86310508560c474cbd091267438ce19d4",
+      "bytes": 10487,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/5e51779a.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/5e51779a.js",
+      "sha256": "65e0471c457c7dc71b8916ecd3741acbdee03ce8d0ade76e0cd7fa60c36f54d8",
+      "bytes": 854,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/sandbox/4adfab46.css",
+      "source": "demos/structural-fasteners/lib/sandbox/4adfab46.css",
+      "sha256": "818e8a6580213e1d41563d9926b88b7f4f1591c9c1cd487a706d9ad7681139ee",
+      "bytes": 136,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/7517070d.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/7517070d.js",
+      "sha256": "8ed0bb271ddf21cbf335165e045aebe41ef8b9b1c3d385e2071a13b2ba20673b",
+      "bytes": 400292,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/learn_dist/entry.js",
+      "source": "demos/structural-fasteners/lib/learn_dist/entry.js",
+      "sha256": "ee66cd04b0855a8dbfd7e8962659100d023dc92d813f295651f654b0fd78b3a5",
+      "bytes": 73653,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/learn_dist/9b1f8619.js",
+      "source": "demos/structural-fasteners/lib/learn_dist/9b1f8619.js",
+      "sha256": "257586cbeb1498cd5dc0f5d6c0716e92ae759229fdaf676ce3837e0e74b10163",
+      "bytes": 96550,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/learn_dist/cd7714c6.css",
+      "source": "demos/structural-fasteners/lib/learn_dist/cd7714c6.css",
+      "sha256": "8c06c050d991b9a84009550d64696062536d19f709fe6382c8b19d0984012050",
+      "bytes": 39433,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/ai-scenario/a6fc234f.js",
+      "source": "demos/structural-fasteners/lib/ai-scenario/a6fc234f.js",
+      "sha256": "17e79272277873064433d8ff8c0ada29687c79f21ec5ec417765892106aa0083",
+      "bytes": 254055,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/learn_dist/603d1adf.js",
+      "source": "demos/structural-fasteners/lib/learn_dist/603d1adf.js",
+      "sha256": "7047808ffdff0583c5e98a71142885a30f048b019dcb075a0b374c3fb998c918",
+      "bytes": 75921,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/entry.js",
+      "source": "demos/structural-fasteners/lib/mondrian/entry.js",
+      "sha256": "8b1e13768c8a2ce9c99735204a3598c5a82900a0c2454235cfae3939c73283cf",
+      "bytes": 7433,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/67ca90d9.js",
+      "source": "demos/structural-fasteners/lib/mondrian/67ca90d9.js",
+      "sha256": "4f5fda36762559f46215724930cea77a8a9e48b86696722bf0c19eb88536b2e0",
+      "bytes": 49968,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/696a7ebe.js",
+      "source": "demos/structural-fasteners/lib/mondrian/696a7ebe.js",
+      "sha256": "690b5f213e292e3a965bba1c7af3f909b999be73294ac431910d93d7a78d8d55",
+      "bytes": 31034,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/37514259.js",
+      "source": "demos/structural-fasteners/lib/mondrian/37514259.js",
+      "sha256": "ef940a7a3bf4dcbd85b4d00c8099d6bba4950fb0f89483402edca35bb0a31c17",
+      "bytes": 587503,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/7dfb1de4.js",
+      "source": "demos/structural-fasteners/lib/mondrian/7dfb1de4.js",
+      "sha256": "1fbbd0fc2e92df9cccceac2ff9c51078781e8766ca222d9cec2d93efc8aeed6a",
+      "bytes": 281112,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/3868877e.js",
+      "source": "demos/structural-fasteners/lib/mondrian/3868877e.js",
+      "sha256": "3bc54d5274e2409babf19cdd66fa1d330e697e7997e064075d76994cdd9fd619",
+      "bytes": 887,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/mondrian/5d56aa22.js",
+      "source": "demos/structural-fasteners/lib/mondrian/5d56aa22.js",
+      "sha256": "bd8d12c27c44afa22dbbe51b6221c71a2c80517c2ab7160886771240c5dd5ad2",
+      "bytes": 887,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/4326e01f.js",
+      "source": "demos/structural-fasteners/lib/rise/4326e01f.js",
+      "sha256": "707b6071f85b2f5e91c9292024f42d27547ebbe2c6a9bbb591e110c586ede5d0",
+      "bytes": 16255,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/dff4e2dd.css",
+      "source": "demos/structural-fasteners/lib/rise/dff4e2dd.css",
+      "sha256": "ed984ad54aa7b7285a3670329a553db7baaccad0c2c9bea936eaa3168f1288cf",
+      "bytes": 24901,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/7b21e184.js",
+      "source": "demos/structural-fasteners/lib/rise/7b21e184.js",
+      "sha256": "8f3bda9d924be536a9ce8374bdca58ea4535f0afd7a04802993abec5aee16b66",
+      "bytes": 1675802,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/5b7528f4.css",
+      "source": "demos/structural-fasteners/lib/rise/5b7528f4.css",
+      "sha256": "ee2baeab13c365a9c4ffd204dcb97235834f758a9ae85ed4e3a9d6c1090a978a",
+      "bytes": 994798,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/17e831df.js",
+      "source": "demos/structural-fasteners/lib/rise/17e831df.js",
+      "sha256": "a9484ae74e4a494e24124fc48d971c5c9e19a1362a0da4e34c2c0ebab63234df",
+      "bytes": 1100661,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/9aede266.ttf",
+      "source": "demos/structural-fasteners/lib/rise/9aede266.ttf",
+      "sha256": "564148550d2e23f2d2cd45d4ee9e0d7b127a0df058b87887c2bc9c3bbcad5894",
+      "bytes": 24868,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/bff47411.woff",
+      "source": "demos/structural-fasteners/lib/rise/bff47411.woff",
+      "sha256": "83b1e3cc08d1961c0577a3664dfc5218cc36de38df75f3496c33fb7aee9075c5",
+      "bytes": 24944,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/398fc5a8.js",
+      "source": "demos/structural-fasteners/lib/rise/398fc5a8.js",
+      "sha256": "f7617f8b523f7d49d34974362f1e8d9dd890de54e8576a6813613195a8be6a22",
+      "bytes": 8192,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/03869993.js",
+      "source": "demos/structural-fasteners/lib/rise/03869993.js",
+      "sha256": "e2b8e034719a1581bff8912caaec02f2effaca04c1fc6a4e24b54676e74819e6",
+      "bytes": 209575,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/55a3a5c1.js",
+      "source": "demos/structural-fasteners/lib/rise/55a3a5c1.js",
+      "sha256": "daa366dd5e424002f34cf4b1cd2e8363b796799459c23cae0423712bf3ee1411",
+      "bytes": 4293,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/f6ab4cc4.js",
+      "source": "demos/structural-fasteners/lib/rise/f6ab4cc4.js",
+      "sha256": "83cc81f832e6e3bbfc8fb659fcbad004acb79e03362a546ebfae6cf1cb459ac4",
+      "bytes": 303732,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/4fda90c0.js",
+      "source": "demos/structural-fasteners/lib/rise/4fda90c0.js",
+      "sha256": "72a9880898535e8479b7ab2fca8e947057570e44af11e28412511dd6d05cbabc",
+      "bytes": 139,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/81004680.js",
+      "source": "demos/structural-fasteners/lib/rise/81004680.js",
+      "sha256": "a477e887e2428f1a9418fc5f7b35464416a40ffa461abfd64eb8c0dd80254bfe",
+      "bytes": 35660,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/906157d7.js",
+      "source": "demos/structural-fasteners/lib/rise/906157d7.js",
+      "sha256": "8c0a1830b48b973078adf9e3206aa0c97a3677cb42bef58e56ca54970454b7cf",
+      "bytes": 8959,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/299f5ddb.js",
+      "source": "demos/structural-fasteners/lib/rise/299f5ddb.js",
+      "sha256": "8645cc347354881b302a21cdc9013c6907dc18ec023a032758f5dfad20336070",
+      "bytes": 61,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/dad7f2d7.js",
+      "source": "demos/structural-fasteners/lib/rise/dad7f2d7.js",
+      "sha256": "f4c6887d425392c6a59c86d3fb24250e566d407d52fbd54800cd8c2310c7800d",
+      "bytes": 1805863,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/974e4e6a.js",
+      "source": "demos/structural-fasteners/lib/rise/974e4e6a.js",
+      "sha256": "5fabf9c7d7730e97d7095c2ddb786ce4fe35710d23ad02e722f9edb3e5c3d903",
+      "bytes": 1293633,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/11e23bb8.js",
+      "source": "demos/structural-fasteners/lib/rise/11e23bb8.js",
+      "sha256": "790167cf1405039ab6426e84798a115b2466124dd34df8acc8d321b4e3a78bfd",
+      "bytes": 18400,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/7ed42a60.js",
+      "source": "demos/structural-fasteners/lib/rise/7ed42a60.js",
+      "sha256": "4be3c0fd76a18919b74c717aa2e33a604c2a19f5c25806fcf26dfd4c9776b051",
+      "bytes": 41156,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/fd83b01d.js",
+      "source": "demos/structural-fasteners/lib/rise/fd83b01d.js",
+      "sha256": "54d040df2cb6bec359b733d1253a4ac41f594b2c5f1c5d9b9a1e9c96714c18b7",
+      "bytes": 172828,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/ed2e25ef.js",
+      "source": "demos/structural-fasteners/lib/rise/ed2e25ef.js",
+      "sha256": "3e8fea78035be70ed64e1c6dae548916766f7f4a6f07792586c748140bb47047",
+      "bytes": 12919,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/becaa0a1.js",
+      "source": "demos/structural-fasteners/lib/rise/becaa0a1.js",
+      "sha256": "d0c2930a3ba3fe36e48eedeecb0f80871f5720a4371be22383eb2420f5329030",
+      "bytes": 2420,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/6ba0b8e0.js",
+      "source": "demos/structural-fasteners/lib/rise/6ba0b8e0.js",
+      "sha256": "d8f5f57cac2899a02aef54309b4e4854082153831b6edc5ff561149578b37e5c",
+      "bytes": 3139,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/rise/306a0618.js",
+      "source": "demos/structural-fasteners/lib/rise/306a0618.js",
+      "sha256": "1863d59a95a5ebc1fd45a658616228e187efb2bc3a84e9a2f4edcb7a0949f620",
+      "bytes": 6259,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/driverOptions.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/driverOptions.js",
+      "sha256": "4915cef52d2c47912a84979962369ec5f0c848b31cc3af4c0a8f6265142c0d36",
+      "bytes": 292,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/indexAPI.html",
+      "source": ".course-build/structural-fasteners/source/scormdriver/indexAPI.html",
+      "sha256": "ce509cbfad66c56e406b47b4bfcc27fcbaa9b8d9cb146d4e61d2ec67d9171201",
+      "bytes": 2890,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/goodbye.html",
+      "source": ".course-build/structural-fasteners/source/scormdriver/goodbye.html",
+      "sha256": "43318ef7213ec10fa77368a6db977f1279434ed574e47c0ac8f2d2260beac9e6",
+      "bytes": 692,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/index.html",
+      "source": ".course-build/structural-fasteners/source/scormcontent/index.html",
+      "sha256": "cd7f6d8dbeddad0b97db6f5629c38beecd96a9f1386194b6cc872958be16d17d",
+      "bytes": 1082,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/lib/dist/75b507a5.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/lib/dist/75b507a5.js",
+      "sha256": "8e6bdef4db8ded2dd3564917716a00ce8ff116e2f0d50c23c8b07848d40bcc69",
+      "bytes": 1583,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/dist/77aa0c2e.js",
+      "source": "demos/structural-fasteners/lib/dist/77aa0c2e.js",
+      "sha256": "c860f627e5a4273db9800122700f4d8e7744c995006f1087b8e8738ec2d1c9b8",
+      "bytes": 4557,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/combined-tightening-method.png",
+      "source": "demos/structural-fasteners/assets/combined-tightening-method.png",
+      "sha256": "e23ed5a920d0e630ed23f05b1317a75fbef44027fc1da02092e9253e33680070",
+      "bytes": 282685,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/patrick-ordish-elearning-l.png",
+      "source": "demos/structural-fasteners/assets/patrick-ordish-elearning-l.png",
+      "sha256": "1adeda0d91de79a81f8f0ea0fadb52020934e27adb9871ef5fd79215ccc9edd2",
+      "bytes": 5535,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/ai-captions-1794596742370.vtt",
+      "source": "demos/structural-fasteners/assets/ai-captions-1794596742370.vtt",
+      "sha256": "aeef04223af100812704cb95f482a5635c3ed899aec12d6eabd0b9901b78a61f",
+      "bytes": 1245,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/blank.html",
+      "source": ".course-build/structural-fasteners/source/scormdriver/blank.html",
+      "sha256": "bf97a71aaeb0d3cb7ba99f7381d9546a6f1fd10cd4502b2faa29caf206d995a8",
+      "bytes": 1256,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/assembly-drawing.jpg",
+      "source": "demos/structural-fasteners/assets/assembly-drawing.jpg",
+      "sha256": "02e93db11939a665c945b99b6a93d887010c2e411dc4dc52d301460abc02c423",
+      "bytes": 56187,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/understanding-bolted-conne.png",
+      "source": "demos/structural-fasteners/assets/understanding-bolted-conne.png",
+      "sha256": "119f7c1b965b727e43b70a2d4e0e5fa79e0c6272da70969f08e57c9a0d3552ef",
+      "bytes": 282205,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/tightening-illustration.jpg",
+      "source": "demos/structural-fasteners/assets/tightening-illustration.jpg",
+      "sha256": "22bb90cc11724204d0dd9f95eeb6916ccacc23cf4ea5b85f8343eb6e2b809d13",
+      "bytes": 50066,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/understanding-bolted-conne.mp4",
+      "source": "demos/structural-fasteners/assets/understanding-bolted-conne.mp4",
+      "sha256": "da5279c99010f172e992a6c7c85c095f30be31f1636185b36e89f02d44761a29",
+      "bytes": 34115290,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/AICCComm.html",
+      "source": ".course-build/structural-fasteners/source/scormdriver/AICCComm.html",
+      "sha256": "e62c3204a8caf4acdea6268179c3eb593fcfff2543450a41bdc5a31121279d55",
+      "bytes": 30672,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/connection-detail-source.jpg",
+      "source": "demos/structural-fasteners/assets/connection-detail-source.jpg",
+      "sha256": "ad3b4ac6965ea5f672d4204d33fcf92dce4c05557d1097b538cf5fc44ce9ff3b",
+      "bytes": 13643,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/combined-tightening-method.mp4",
+      "source": "demos/structural-fasteners/assets/combined-tightening-method.mp4",
+      "sha256": "59217edc0eae013ffcc77a95da65c9a4d4602340820a5843efa20c5306127101",
+      "bytes": 34207001,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/ai-captions-1794596795046.vtt",
+      "source": "demos/structural-fasteners/assets/ai-captions-1794596795046.vtt",
+      "sha256": "4ae52133ee86b87489f1cba6e4d0d0d96791ce554c6d9da84f0c1bc1a42f5ef9",
+      "bytes": 1351,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/lms-interface.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/lms-interface.js",
+      "sha256": "aae084c70f60c7029b75ff714f20631a21f2f2678cd8a30697c4b401b5e6274e",
+      "bytes": 25901,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Inter-Regular.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Inter-Regular.woff",
+      "sha256": "a9d31045bb8a4879a41901666a092e6a6f8da33c188dbe504ee4aa6443df2c40",
+      "bytes": 139044,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/auto-scripts/AutoBookmark.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/auto-scripts/AutoBookmark.js",
+      "sha256": "0f80061c0a456adcf33c29ef96ed3ad96802816a65e687a79882b8de78e27af2",
+      "bytes": 272,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/auto-scripts/AutoCompleteSCO.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/auto-scripts/AutoCompleteSCO.js",
+      "sha256": "7319c05924ea72f67c2c4c2c09bf803c9823b35c239564cf342f40a12e3f979a",
+      "bytes": 172,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/auto-scripts/CourseExit.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/auto-scripts/CourseExit.js",
+      "sha256": "761f1b11b4e29ae26b0bc747984620b365347be58ffc29e4141d8ffc46845c39",
+      "bytes": 188,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/scormdriver.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/scormdriver.js",
+      "sha256": "805c4400889ccf6e67d47d98d3a644b78066154e3a3d2f9fad1f79fdfcc50554",
+      "bytes": 451203,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormdriver/browsersniff.js",
+      "source": ".course-build/structural-fasteners/source/scormdriver/browsersniff.js",
+      "sha256": "410cf9dc9ac8a3f4624be7fe07b931cab479e129cc1bd42e8db10fbb3e2640a7",
+      "bytes": 4338,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Lato2-Italic.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Lato2-Italic.woff",
+      "sha256": "26318a1467a5e5caf10b04cfa942d079632560cd7a29cec565fd1dc9f7ec5081",
+      "bytes": 328412,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Lato2-Light.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Lato2-Light.woff",
+      "sha256": "e74cf550f9ba8f374e026115e0f4298c242e0d79d214f4e27ba765251139bdb8",
+      "bytes": 310884,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/Structural fasteners - ins.pdf",
+      "source": "demos/structural-fasteners/assets/Structural fasteners - ins.pdf",
+      "sha256": "e8c01d43014c49448d747c3a50e385fdb4a187863c75ef370428c1f035d51583",
+      "bytes": 3490,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Lato2-Regular.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Lato2-Regular.woff",
+      "sha256": "5b9025dda4d7688e3311b0c17eddc501133b807def33effaef6593843cf5416e",
+      "bytes": 309192,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Inter-Light.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Inter-Light.woff",
+      "sha256": "4805feab9166f3d15b56c5d904434d1e7fed120cedb857b76d24b83e9d769a92",
+      "bytes": 145992,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Inter-Bold.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Inter-Bold.woff",
+      "sha256": "6574b372f3cbbddc9af0a2f40c8be7b91a50494b59c1c8d6a47ed2da9b03a318",
+      "bytes": 148836,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Lato2-Bold.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Lato2-Bold.woff",
+      "sha256": "0e56b17d142eb366c8007031d14e34da48c70b4a9d9a0ca492e696a7bae45e1e",
+      "bytes": 309728,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Lato2-Black.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Lato2-Black.woff",
+      "sha256": "659bd5ede5d3ef9c2373704ddaab613313a6c323e631bb9c536f592f4a5092ce",
+      "bytes": 297272,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Inter-Medium.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Inter-Medium.woff",
+      "sha256": "860f80f683dd2cca3acc4680a798cd8a1a8dd8d6a0e18312692d9504f3792242",
+      "bytes": 157888,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/lib/fonts/Inter-Black.woff",
+      "source": "demos/structural-fasteners/lib/fonts/Inter-Black.woff",
+      "sha256": "033f1ca80c0b5a66e953bb02f003c4e1a3f84064d65349f38492edb7bdaf0ad0",
+      "bytes": 145112,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/e652c383-f40c-4387-9df3-6ead6ae03e72/index.html",
+      "source": "demos/structural-fasteners/assets/e652c383-f40c-4387-9df3-6ead6ae03e72/index.html",
+      "sha256": "a624f641558f067bf033867e62e97c01c3bc327fabc3761b1a772075474a6f81",
+      "bytes": 10903,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/assets/40762f9f-92dd-4976-b498-968cbd86d837/index.html",
+      "source": "demos/structural-fasteners/assets/40762f9f-92dd-4976-b498-968cbd86d837/index.html",
+      "sha256": "94ac74a040e938f028aeab3cf76996976faba4d9b9d740343c26b2d68fcda591",
+      "bytes": 7207,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "scormcontent/runtime-data.js",
+      "source": ".course-build/structural-fasteners/source/scormcontent/runtime-data.js",
+      "sha256": "e49df5cb8f09f3b8cf07034a71ebd72a59cb26777f93dab535d1f187cf044da3",
+      "bytes": 78158,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "metadata.xml",
+      "source": ".course-build/structural-fasteners/source/metadata.xml",
+      "sha256": "f971471ffae43303e69e27a56877cc857a2c8d55c34b316cb8d9e26dca2aa905",
+      "bytes": 4146,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "imsmanifest.xml",
+      "source": ".course-build/structural-fasteners/source/imsmanifest.xml",
+      "sha256": "9c1f13968c3bda2709853a3b06b3eeb90752f30fa58f948404dc23db2fe17593",
+      "bytes": 6997,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "imscp_rootv1p1p2.xsd",
+      "source": ".course-build/structural-fasteners/source/imscp_rootv1p1p2.xsd",
+      "sha256": "e45606348d7f517874d70ec102796526a63a85e54a4a1db5e6a5944449674d31",
+      "bytes": 14560,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "ims_xml.xsd",
+      "source": ".course-build/structural-fasteners/source/ims_xml.xsd",
+      "sha256": "1b3a43ddef4fa814a6dce69c4dbbfc25e00e0edc76a0cccfec7ed0a59c6a37b0",
+      "bytes": 1213,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "adlcp_rootv1p2.xsd",
+      "source": ".course-build/structural-fasteners/source/adlcp_rootv1p2.xsd",
+      "sha256": "166397a1f52585caac857228cf2b10085a5d07c0612a3d55cb3ed108ce8b028a",
+      "bytes": 4398,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    },
+    {
+      "archive": "ScormEnginePackageProperties.xsd",
+      "source": ".course-build/structural-fasteners/source/ScormEnginePackageProperties.xsd",
+      "sha256": "c1bca52ccc6e39414b38f7b8c24c1934846f9bede542402524e2de40aeb245e6",
+      "bytes": 13691,
+      "date_time": [
+        2026,
+        11,
+        13,
+        19,
+        7,
+        4
+      ],
+      "compress_type": 8,
+      "external_attr": 2176057344,
+      "create_system": 3
+    }
+  ]
+}
