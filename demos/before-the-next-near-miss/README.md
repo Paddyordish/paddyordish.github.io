@@ -1,6 +1,6 @@
 # Before the Next Near Miss
 
-Revision 3 · 15 November 2026 · Patrick Ordish
+Revision 4 · 15 November 2026 · Patrick Ordish
 
 Concise lessons, optional lesson/task narration and exact transcripts, visual recall cards and inspection activities. Three short Synthesia videos, comparison tabs, nine practice questions including a changed six-question challenge, model report and next-shift plan.
 
