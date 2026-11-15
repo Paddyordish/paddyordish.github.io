@@ -1,3 +1,5 @@
 "use strict";
 document.querySelectorAll('.r2-flip').forEach(button=>button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));button.querySelector('.r2-front').hidden=open;button.querySelector('.r2-back').hidden=!open;}));
 document.querySelectorAll('.r2-hotspot').forEach(button=>button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));document.getElementById(button.getAttribute('aria-controls')).hidden=!open;}));
+
+document.querySelectorAll('.r2-scene').forEach(scene=>{const img=scene.querySelector('img'),status=scene.querySelector('.scene-status');const show=()=>{if(img.naturalWidth>0)scene.classList.add('scene-ready');else fail();};const fail=()=>{scene.classList.add('scene-error');status.textContent='The scene could not load. Use “Read the complete scene explanation” below to continue.';};img.addEventListener('load',show);img.addEventListener('error',fail);if(img.complete)show();});

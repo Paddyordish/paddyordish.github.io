@@ -1,9 +1,7 @@
-# AI at Work | The Human Check
+# AI at Work - The Human Check
 
-An independent course by Patrick Ordish. Revision 2, 15 November 2026.
+Revision 3 · 15 November 2026 · Patrick Ordish
 
-Visual inspections, image-backed recall cards, concise main explanations and optional page audio with expanded transcripts. Twenty pages, five modules, a prompt workshop, claim inspection, a three-decision case, ten challenge questions and a downloadable field guide. Practice supports judgement; it does not certify workplace competence.
+Concise lessons, optional lesson/task narration and exact transcripts, visual recall cards and inspection activities. Twenty pages, five modules, information and review activities, a three-decision case, ten-question practice challenge and action plan. No video.
 
-Serve index.html over HTTP. The SCORM 1.2 edition records supported progress, practice answers, score and completion. Public browser progress is separate from LMS tracking. Written plans are not stored in LMS suspend data.
-
-The native Nucleus edition and this public companion have different delivery mechanisms; consult the release notes for exact verification scope.
+The browser demo and SCORM companion use separate progress storage. Written plans stay in the open page unless downloaded. This independent practice demonstration does not certify workplace competence. Follow current site rules and authorised procedures.

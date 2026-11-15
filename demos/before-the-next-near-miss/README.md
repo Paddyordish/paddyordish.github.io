@@ -1,9 +1,7 @@
 # Before the Next Near Miss
 
-An independent course by Patrick Ordish. Revision 2, 15 November 2026.
+Revision 3 · 15 November 2026 · Patrick Ordish
 
-Visual inspections, image-backed recall cards, concise main explanations and optional page audio with expanded transcripts. Three short Synthesia videos, fact-comparison tabs, nine practice questions and a next-shift plan. This awareness course does not authorise equipment use or establish practical competence. Follow current site instructions and authorised supervision.
+Concise lessons, optional lesson/task narration and exact transcripts, visual recall cards and inspection activities. Three short Synthesia videos, comparison tabs, nine practice questions including a changed six-question challenge, model report and next-shift plan.
 
-Serve index.html over HTTP. The SCORM 1.2 edition records supported progress, practice answers, score and completion. Public browser progress is separate from LMS tracking. Written plans are not stored in LMS suspend data.
-
-The native Nucleus edition and this public companion have different delivery mechanisms; consult the release notes for exact verification scope.
+The browser demo and SCORM companion use separate progress storage. Written plans stay in the open page unless downloaded. This independent practice demonstration does not certify workplace competence. Follow current site rules and authorised procedures.
